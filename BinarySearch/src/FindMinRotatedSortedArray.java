@@ -58,7 +58,7 @@ Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
         // e.g. 1 < 2 < 3 < 4 < 5 < 7. Already sorted array.
         // Hence the smallest element is first element. A[0]
         if (nums[right] > nums[0]) {
-            return nums[0];
+           return nums[0];
         }
 
         // Binary search way
@@ -98,7 +98,16 @@ Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
     public static void main (String[] args) {
         int[] nums = {3,2};
         FindMinRotatedSortedArray ob = new FindMinRotatedSortedArray();
+
         System.out.println(ob.findMin(nums));
 
+        nums = new int[] {2,2,2,0,1};
+        System.out.println(ob.findMin(nums));
+
+        nums = new int[] {4,5,6,7,0,1,4};
+        System.out.println(ob.findMin(nums));
+
+        nums = new int[] {0,1,4,4,5,6,7};
+        System.out.println(ob.findMin(nums));
     }
 }
