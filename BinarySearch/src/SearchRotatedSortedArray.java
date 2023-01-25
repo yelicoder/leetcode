@@ -70,12 +70,12 @@ Output: -1
     public static void main (String[] args) {
         SearchRotatedSortedArray o = new SearchRotatedSortedArray();
        int[] nums = {4,5,6,7,0,1,2};
-       /*
+
         System.out.println(o.search(nums,0));
 
         nums = new int[] {4,5,6,7,0,1,2};
         System.out.println(o.search(nums,3));
-*/
+
         nums = new int[]{1};
         System.out.println(o.search(nums,0));
     }
