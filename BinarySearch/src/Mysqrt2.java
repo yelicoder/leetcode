@@ -31,5 +31,6 @@ public class Mysqrt2 {
         System.out.println(o.mySqrt(0));
         System.out.println(o.mySqrt(1));
         System.out.println(o.mySqrt(8));
+        System.out.println(o.mySqrt(16));
     }
 }
